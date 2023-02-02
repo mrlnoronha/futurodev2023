@@ -2,6 +2,9 @@ body{
     margin: 5%;
     padding: 5%;
     align-items: center;
+    border-style: groove;
+    text-align: center;
+    font-style: normal;
 }
 
 header{
@@ -14,6 +17,7 @@ header{
     margin: 5%;
     padding: 5%;
     align-items: center;
+    border-style: groove;
   
 }
 
@@ -21,6 +25,7 @@ nav{
     margin: 5%;
     padding: 5%;
     align-items: center;
+    border-style: groove;
 }
 
 
@@ -35,6 +40,9 @@ section{
     margin: 5%;
     padding: 5%;
     align-items: center;
+    border-style: groove;
+    text-align: left;
+    
      
 }
 
@@ -44,10 +52,13 @@ footer{
     align-items: center;
 }
 
-div{
-    border-radius: 2%;
-    border-width: 2%;
-    margin: 2%;
+div {
+    width: 80%;
+    border: 1px solid green;
     padding: 2%;
-    background-color: aquamarine;
-}
+    align-self: start;
+    margin: 5%;
+    left: 5%;
+    box-shadow: 2px 2px 9px rgb(7, 2, 54);
+    width: calc(100% - 100px);
+  }
