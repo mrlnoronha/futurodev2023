@@ -1,17 +1,14 @@
 body{
     border: 1px solid black;
-    padding-top: 50px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 80px;
+    padding: 2%;
     border-radius: 5px;
     }
-header,nav,section,footer{
+header,nav,section,footer,ul{
     border: 1px solid black;
     padding-top: 50px;
     padding-right: 30px;
     padding-bottom: 50px;
-    padding-left: 80px;
+    padding-left: 30px;
     background-color: lightblue;  
     align-items: center;
     border-style: solid;
@@ -29,4 +26,7 @@ header{
 }
 footer{
     background-color: antiquewhite;
+}
+ul{
+    background-color: aliceblue;
 }
