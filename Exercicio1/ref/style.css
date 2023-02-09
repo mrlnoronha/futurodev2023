@@ -2,8 +2,9 @@ body{
     border: 1px solid black;
     padding: 2%;
     border-radius: 5px;
+
     }
-header,nav,section,footer,ul{
+header,nav,section,footer,ul,ol{
     border: 1px solid black;
     padding-top: 50px;
     padding-right: 30px;
@@ -17,6 +18,7 @@ header,nav,section,footer,ul{
     margin:2%
 
 }
+
 nav{
     background-color:darkslategrey;
     color:aliceblue
@@ -27,6 +29,13 @@ header{
 footer{
     background-color: antiquewhite;
 }
-ul{
+ul,ol{
+    border: 0px solid black;
     background-color: aliceblue;
+    border-left: 5px solid rgb(163, 155, 182);
+    background-color: #f1f1f1;
+    list-style-type:upper-alpha;
+    padding: 10px 20px;
+
 }
+
