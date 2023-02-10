@@ -13,12 +13,9 @@ div{
 section{
     margin: 35px;
 }
-section.quadrofoto{
-    margin: 0px;
-    width: 100%;
-}
-section.quadro{
-    margin: 5px;
-    width: 30%;
+.quadrofoto{
+    widows: initial;
+    width: 20%;
+    height: 20%;
 }
 
