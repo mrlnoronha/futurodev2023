@@ -1,0 +1,15 @@
+section{
+    background-color:bisque;
+    ;
+}
+p.foto{
+    background-color:blanchedalmond;
+    text-align: left;
+    width: auto;
+    padding: auto;
+    border:100px;
+    margin:1px;
+}
+p{
+    margin:5px;
+}
