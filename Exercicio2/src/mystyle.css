@@ -35,8 +35,9 @@ header,nav{
 }
 
 body{
-    width: 90%;
-    margin: 5%;
+    width: 88%;
+    padding: 2%;
+    margin: 8%;
     border-radius: 5px;
     background-color: grey;
     border: 1px solid whitesmoke;
@@ -50,8 +51,8 @@ body{
 }
 
 section{
-    width: 85%;
-    padding: 5%;
+    width: 88%;
+    padding: 2%;
     margin: 5%;
     content: 100%;
     align-content: center;
