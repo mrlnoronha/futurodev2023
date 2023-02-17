@@ -1,8 +1,11 @@
 body {
-    background-image: url("https://raw.githubusercontent.com/marcionoronha1995/futurodev2023/main/Exercicio2v1/img/IMG_20230216_205400_2.jpg");
+    padding: 0px;
     background-color: black;
-    opacity: 0.8;
 }
 
+header.bgheader {
+    height: 300px;
+    background: url(img_navsprites.gif) 0 0
+}
 
 
