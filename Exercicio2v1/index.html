@@ -24,34 +24,73 @@
 
 <section>
 
-  <div class="row">
-    <div class="col-sm-1 text-white">divisão</div>
-  </div>
+  <!--inicio row de fotos-->
+  <div class="row bloco-img">
 
-  <div class="row bg-white">
-    <div class="col-sm-3">.col-sm-3</div>
-    <div class="col-sm-3">.col-sm-3</div>
-    <div class="col-sm-3">.col-sm-3</div>
-    <div class="col-sm-3">.col-sm-3</div>
+    <!--inicio  do quadro de foto-->
+    <div class="col-sm-3 bg-white container card mt-2 p-2">quadro
+      <!--inicio do quado que tem a foto-->
+      <div class="bg-white text-black">foto</div>
+      <div><img src="img/bedroom-1872196__340.jpg" class="rounded img-thumbnail img-fluid" alt=""></div>
+      <div class="mt-4 p-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo perferendis aut cupiditate tempora similique? Optio, repellat nihil?</div>
+      <div class="pt-sm-4">
+        <!--modal-->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+          Abrir foto
+        </button>
+      </div>
+      <div class="pt-sm-4"></div>
+
+        <!-- The Modal -->
+          <div class="modal" id="myModal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Foto</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                  <img src="img/bedroom-1872196__340.jpg" class="rounded img-fluid" alt="">
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        <!--fim do modal-->
+
+
+
+
+    </div>
+    <!--fim  do quadro de foto-->
+       
+
+        
+    
   </div>
+  <!--fim row de fotos-->
 
   <div class="row">
     <div class="col-sm-1 text-white">foto grande</div>
     <div class="col-sm-10 text-white bg-warning">foto grande</div>
-    <div class="col-sm-1 text-white">foto grande</div>   
-    
-    
+    <div class="col-sm-1 text-white">foto grande</div>
   </div>
-
-  <div class="row">
-    <div class="col-sm-7 bg-gradient">.col-sm-4</div>
-    <div class="col-sm-5 bg-danger">.col-sm-8</div>
-  </div>
+ mt-2 p-2
 
 </section>
 
 
-  <footer>
+  <footer class="bg-black">
+
     <div class="offcanvas offcanvas-bottom imagemfundo" id="demo">
         <div class="offcanvas-header">
           <h1 class="offcanvas-title">Márcio Noronha</h1>
@@ -70,6 +109,8 @@
         Sobre o aluno
         </button>
       </div>
+
+      <div class="pt-10 container col pedapagina"></div>
 
 </footer>
 
